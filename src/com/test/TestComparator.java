@@ -52,7 +52,7 @@ public class TestComparator {
 		displayList(arrEmpData,"before sorting:::::::arrEmpData:::");
 
 		Collections.sort(arrEmpData, new EmpJoiningDateComparator());
-		displayList(arrEmpData,"after sorting:::::::EmpJoiningDateComparator:::");
+		displayList(arrEmpData,"after sorting:::natural order::::EmpJoiningDateComparator:::");
 
 		Collections.sort(arrEmpData, new EmpJoiningDateComparator().reversed());
 		displayList(arrEmpData,"after sorting::reversed:::::EmpJoiningDateComparator:::");
